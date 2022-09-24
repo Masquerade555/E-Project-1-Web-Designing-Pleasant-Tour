@@ -1,0 +1,75 @@
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+ 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
+
+p, h3{
+	text-transform:capitalize;
+	}
+	
+#myall{
+	
+	}
+
+.dnow {
+  list-style-type: none;
+  margin: 5px 30px 10px 30px;
+  padding: 0;
+}
+
+.dnow li {
+  float:left;
+  margin: 0 5px 0 0;
+  width: 130px;
+  height: 40px;
+  
+}
+
+.dnow label,
+.dnow input {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-decoration:none;
+}
+
+.box1{
+	
+	width:100%;
+	
+	}
+
+.dnow input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.dnow input[type="radio"]:checked+label,
+.Checked+label {
+  background: #287094;
+}
+
+.dnow label {
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.dnow label:hover {
+  background: #DDD;
+}
+
